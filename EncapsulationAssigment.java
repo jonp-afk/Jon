@@ -27,9 +27,7 @@ public class EncapsulationAssigment {
         //creating an instance of InterestRateCalculator class
         InterestRateCalculator rate = new InterestRateCalculator(userAmount, userMonths);
         System.out.println(rate); //calls on toString method
-    }
-    
-    
+    }    
 }
 
 class InterestRateCalculator{
