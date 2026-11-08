@@ -62,6 +62,7 @@ Redisplay the new list.*/
             
             
             if (userInput.equals("remove")){
+                j=0;
                 System.out.println("What item number would you like to remove?");
                 itemRemover = scan.nextInt();
                 shop.remove(itemRemover -1); //we subtract 1 to account for 0 based indexes
